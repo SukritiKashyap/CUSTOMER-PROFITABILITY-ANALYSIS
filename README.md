@@ -6,6 +6,8 @@ This project analyzes retail transaction data to identify profitable customer se
 #Dataset
 Online Retail Transaction Dataset
 
+link of the data: https://drive.google.com/file/d/1AqM4oYfssXSLq5fPC5KFalBcOK39kpxD/view?usp=sharing
+
 Source: Kaggle
 
 The dataset contains transaction-level records including customer ID, invoice number, quantity, price, and purchase date.
