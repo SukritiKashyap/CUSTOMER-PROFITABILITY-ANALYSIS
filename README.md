@@ -1,56 +1,40 @@
 # Customer-Profitability-Analysis
-Overview
 
-This project analyzes retail transaction data to identify profitable customer segments and estimate Customer Lifetime Value (CLV). The goal is to understand customer purchasing behavior and determine which customers contribute the most to business revenue and profit.
+## Project Overview
 
-#Dataset: 
-Online Retail Transaction Dataset
+Analyzed retail transaction data to identify high-value customers and understand their contribution to overall profitability. Applied statistical aggregation, customer segmentation, and profit distribution analysis.
+
+## Key Tasks
+
+* Cleaned and prepared transactional data
+* Calculated customer-level **Revenue** and **Profit**
+* Computed **Total Orders per Customer** using unique invoices
+* Performed **customer segmentation** using K-Means Clustering
+* Conducted **profit contribution analysis** based on the Pareto Principle
+
+## Key Insights
+
+* A small percentage of customers generate a large share of total profit.
+* Distinct customer segments exist based on purchase frequency and spending behavior.
+* High-value customers show significantly higher order frequency and revenue contribution.
+
+## Tools & Technologies
+
+Python • Pandas • NumPy • Scikit-learn • Matplotlib • Seaborn • Jupyter Notebook
+
+## Repository Contents
+
+* `customer_profit_analysis.ipynb` – full analysis workflow
+* `customer_scatter.png` – customer segmentation visualization
+* `profit_distribution.png` – profit distribution analysis
+* `profit_pareto_analysis.png` – profit concentration visualization
+
+Note
+
+The dataset used for analysis may be large and is not included in the repository. 
+
+Download the dataset separately and place it in the project directory.
 
 link of the data: https://drive.google.com/file/d/1AqM4oYfssXSLq5fPC5KFalBcOK39kpxD/view?usp=sharing
 
 Source: Kaggle
-
-The dataset contains transaction-level records including customer ID, invoice number, quantity, price, and purchase date.
-
-#Tools used:
-Python /
-Pandas /
-NumPy /
-Seaborn /
-Matplotlib /
-Scikit-learn /
-Google Colab
-
-#Workflow
-
-Data cleaning and preprocessing
-
-Feature engineering
-
-Customer aggregation and analysis
-
-Customer segmentation using clustering
-
-Profit contribution and customer value analysis
-
-#Key Insights
-
-A small percentage of customers generate a large share of revenue.
-
-High-value customers show higher purchase frequency and order value.
-
-Customer segmentation helps identify profitable customer groups.
-
-#Project Structure
-
-notebooks – analysis notebook
-
-images – visualization outputs
-
-#Skills Demonstrated
-
-Data Cleaning /
-Exploratory Data Analysis /
-Customer Segmentation /
-Profit Modeling /
-Data Visualization
